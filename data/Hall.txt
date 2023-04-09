@@ -1,0 +1,146 @@
+2
+Student_Hall_Table
+2
+Student_ID entity
+Hall entity
+1
+primary Student_ID
+100
+Student_ID Hall
+<S0> <BRA>
+<S1> <JCB>
+<S2> <Gokhale>
+<S3> <MS>
+<S4> <VD>
+<S5> <RL>
+<S6> <ZH>
+<S7> <SN>
+<S8> <MS>
+<S9> <AM>
+<S10> <RK>
+<S11> <ZH>
+<S12> <HBH>
+<S13> <RL>
+<S14> <HBH>
+<S15> <Nehru>
+<S16> <LLR>
+<S17> <LLR>
+<S18> <RK>
+<S19> <AZ>
+<S20> <LBS>
+<S21> <SNIG>
+<S22> <RK>
+<S23> <AZ>
+<S24> <VD>
+<S25> <LBS>
+<S26> <SNIG>
+<S27> <SN>
+<S28> <AZ>
+<S29> <Gokhale>
+<S30> <RP>
+<S31> <RL>
+<S32> <BCR>
+<S33> <SN>
+<S34> <AZ>
+<S35> <AM>
+<S36> <RP>
+<S37> <RP>
+<S38> <MT>
+<S39> <Nehru>
+<S40> <SN>
+<S41> <RL>
+<S42> <SN>
+<S43> <BRA>
+<S44> <Gokhale>
+<S45> <BCR>
+<S46> <Patel>
+<S47> <MT>
+<S48> <BCR>
+<S49> <SN>
+<S50> <VD>
+<S51> <VD>
+<S52> <AZ>
+<S53> <RK>
+<S54> <RL>
+<S55> <SNIG>
+<S56> <RP>
+<S57> <BRA>
+<S58> <Nehru>
+<S59> <Gokhale>
+<S60> <AM>
+<S61> <HBH>
+<S62> <Gokhale>
+<S63> <VD>
+<S64> <HBH>
+<S65> <Patel>
+<S66> <LLR>
+<S67> <RK>
+<S68> <MMM>
+<S69> <SN>
+<S70> <LBS>
+<S71> <RK>
+<S72> <MMM>
+<S73> <MS>
+<S74> <MMM>
+<S75> <RL>
+<S76> <BCR>
+<S77> <RK>
+<S78> <ZH>
+<S79> <Gokhale>
+<S80> <SNIG>
+<S81> <ZH>
+<S82> <Nehru>
+<S83> <AZ>
+<S84> <Nehru>
+<S85> <JCB>
+<S86> <LLR>
+<S87> <SNIG>
+<S88> <MS>
+<S89> <RP>
+<S90> <SN>
+<S91> <HBH>
+<S92> <AM>
+<S93> <BCR>
+<S94> <Nehru>
+<S95> <RK>
+<S96> <JCB>
+<S97> <JCB>
+<S98> <LLR>
+<S99> <BCR>
+Hall_Capacity_Table
+4
+Halls entity
+Number_of_Rooms int
+Number_of_Blocks int
+Total_Number_of_Students int
+7
+primary Halls
+rangemin Number_of_Rooms 1
+rangemax Number_of_Rooms 1000
+rangemin Number_of_Blocks 1
+rangemax Number_of_Blocks 10
+rangemin Total_Number_of_Students 1
+rangemax Total_Number_of_Students 10000
+21
+Halls Number_of_Rooms Number_of_Blocks Total_Number_of_Students
+<Sir Ashutosh Mukherjee Hall> 88 7 811
+<Azad Hall> 922 4 3556
+<B C Roy Hall> 38 8 430
+<B R Ambedkar Hall> 957 2 7684
+<Gokhale Hall> 985 5 2867
+<Homi Bhabha Hall> 83 5 2218
+<J C Bose Hall> 422 2 9709
+<Lala Lajpat Rai Hall> 419 10 5480
+<Lalbahadur Sastry Hall> 544 2 4278
+<Madan Mohan Malviya Hall> 313 3 9344
+<Megnad Saha Hall> 629 9 5200
+<Mother Teresa Hall> 969 9 5216
+<Nehru Hall> 701 7 8392
+<Patel Hall> 316 6 7986
+<Radha Krishnan Hall> 700 8 8907
+<Rajendra Prasad Hall> 744 3 6446
+<Rani Laxmibai Hall> 652 6 2902
+<Sister Nivedita Hall> 666 6 3543
+<Sarojini Naidu / Indira Gandhi Hall> 267 10 522
+<Vidyasagar Hall> 526 7 2302
+<Zakir Hussain Hall> 919 6 7463
