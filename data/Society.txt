@@ -1,0 +1,143 @@
+2
+Student_Society_Table
+2
+Student_Identity entity
+Member_of_Society entity
+2
+primary Student_Identity
+primary Member_of_Society
+100
+Student_Identity Member_of_Society
+<S0> <WTMS>
+<S1> <SWG>
+<S2> <TDS>
+<S3> <TDS>
+<S4> <SWG>
+<S5> <SWG>
+<S6> <TCC>
+<S7> <TFPS>
+<S8> <Ambar>
+<S9> <TCC>
+<S10> <Prasthanam-TTDS>
+<S11> <Ambar>
+<S12> <WTMS>
+<S13> <Encore-ETDS>
+<S14> <SWG>
+<S15> <Encore-ETDS>
+<S16> <Ambar>
+<S17> <Ambar>
+<S18> <IWG>
+<S19> <C-Club>
+<S20> <Pravah-HTDS>
+<S21> <Spectra-FADS>
+<S22> <Ambar>
+<S23> <SWG>
+<S24> <TDS>
+<S25> <DebSoc>
+<S26> <ETMS>
+<S27> <B-Club>
+<S28> <DebSoc>
+<S29> <Druheen-BTDS>
+<S30> <C-Club>
+<S31> <TDS>
+<S32> <DebSoc>
+<S33> <IWG>
+<S34> <DebSoc>
+<S35> <TLS>
+<S36> <DebSoc>
+<S37> <Prasthanam-TTDS>
+<S38> <Pravah-HTDS>
+<S39> <C-Club>
+<S40> <ETMS>
+<S41> <Spectra-FADS>
+<S42> <Ambar>
+<S43> <Q-Club>
+<S44> <Druheen-BTDS>
+<S45> <B-Club>
+<S46> <Prasthanam-TTDS>
+<S47> <TAS>
+<S48> <Communique>
+<S49> <Encore-ETDS>
+<S50> <Communique>
+<S51> <TLS>
+<S52> <Communique>
+<S53> <SWG>
+<S54> <IWG>
+<S55> <Prasthanam-TTDS>
+<S56> <DebSoc>
+<S57> <Communique>
+<S58> <Prasthanam-TTDS>
+<S59> <Prasthanam-TTDS>
+<S60> <WTMS>
+<S61> <Communique>
+<S62> <Q-Club>
+<S63> <TDS>
+<S64> <IWG>
+<S65> <Druheen-BTDS>
+<S66> <B-Club>
+<S67> <DebSoc>
+<S68> <Druheen-BTDS>
+<S69> <Pravah-HTDS>
+<S70> <TFPS>
+<S71> <TAS>
+<S72> <Pravah-HTDS>
+<S73> <ETMS>
+<S74> <Pravah-HTDS>
+<S75> <SWG>
+<S76> <TCC>
+<S77> <C-Club>
+<S78> <Q-Club>
+<S79> <TDS>
+<S80> <Prasthanam-TTDS>
+<S81> <Q-Club>
+<S82> <B-Club>
+<S83> <Aroma-TCAS>
+<S84> <TFPS>
+<S85> <Q-Club>
+<S86> <Druheen-BTDS>
+<S87> <Communique>
+<S88> <IWG>
+<S89> <SWG>
+<S90> <ETMS>
+<S91> <Aroma-TCAS>
+<S92> <WTMS>
+<S93> <Druheen-BTDS>
+<S94> <Communique>
+<S95> <TCC>
+<S96> <TFPS>
+<S97> <TCC>
+<S98> <TLS>
+<S99> <Communique>
+Society_Governor_Table
+5
+Society entity
+Governor_1 entity
+Governor_2 entity
+Governor_3 entity
+Founding_Date date
+1
+primary Society
+22
+Society Governor_1 Governor_2 Governor_3 Founding_Date
+<Technology Literary Society> <S56> <S17> <S3> 1998-08-23
+<Debating Society> <S78> <S19> <S37> 1998-08-04
+<Technology Filmmaking & Photography Society> <S86> <S89> <S94> 1998-07-28
+<Technology Dance Society> <S33> <S8> <S17> 1998-07-25
+<Pravah - Hindi Technology Dramatics Society> <S80> <S80> <S45> 1998-10-02
+<ENCORE - English Technology Dramatics Society> <S75> <S65> <S63> 1998-08-13
+<Prasthanam - Technology Telugu Dramatics Society> <S84> <S23> <S35> 1998-10-22
+<Druheen - Bengali Technology dramatic society > <S92> <S98> <S58> 1998-12-08
+<Communique> <S73> <S12> <S66> 1998-11-03
+<Eastern Technology Music Society> <S28> <S66> <S23> 1998-12-23
+<Western Technology Music Society> <S8> <S61> <S93> 1998-10-27
+<Spectra - the Fine Arts and Design Group of IIT Kharagpur> <S91> <S55> <S98> 1998-09-02
+<Aroma - Technology Culinary Arts Society> <S25> <S48> <S68> 1998-09-12
+<Technology Comedy Club> <S75> <S62> <S66> 1998-07-18
+<Technology Robotix Society> <S24> <S94> <S49> 1998-12-13
+<Business Club> <S44> <S95> <S37> 1998-06-19
+<IIT Kharagpur Quiz Club> <S89> <S16> <S46> 1998-08-09
+<Technology Adventure Society> <S87> <S67> <S76> 1998-06-04
+<Chess Club> <S28> <S39> <S46> 1998-07-18
+<Student Welfare Group> <S73> <S44> <S15> 1998-07-31
+<Institute Wellness Group> <S27> <S95> <S16> 1998-07-26
+<Ambar> <S36> <S85> <S83> 1998-10-12

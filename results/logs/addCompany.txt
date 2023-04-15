@@ -1,0 +1,1337 @@
+
+
+ [ LOADING KNOWLEDGE GRAPH ]
+ [ LOADING DATABASE ]
+----------------------------------------
+ [ LOADING TABLE Company_Table ]
+
+ +++ { ROWS } +++
+   Comp, Number_Of_Employees, Founder_First_Name, Founder_Last_Name
+   Head, Heart, Hands, Health, 47689, Catie, Grievous
+   American Consultants League, 17048, Dennie, Anakin
+   American Civil Liberties Union, 4170, Martguerita, Jar
+   Association for Commuter Transportation, 32733, Camile, San
+   Amyotrophic Lateral Sclerosis Association, 10222, Matty, Mon
+   American Writers and Artists Institute, 39439, Briney, Leia
+   Non-Expandable Recreational Foam, 30347, Edeline, Wilhuff
+   as seen on the screen, 93370, Walliw, Shaak
+   Government Employees Insurance Company, 40700, Corette, Mon
+   Makeup Art Cosmetics, 36765, Olenka, Bossk
+   International Standardization Organization, 28194, Marline, Nien
+   National Aeronautics and Space Administration, 29832, Dynah, Plo
+   North Atlantic Treaty Organization, 26494, Willi, Mon
+   Fabbrica Italiana Automobili Torino, 38090, Nina, Lama
+   Experimental Prototype Community of Tomorrow, 78367, Gwendolin, Dexter
+   World Health Organization, 76802, Candida, Zam
+   Leg Godt, 50486, Barbaraanne, Lobot
+   Convenience, Value, and Service, 85164, Felicity, Wicket
+   Raffel Brothers, 97103, Jill, Wilhuff
+   Pfefferminz, 86866, Dorris, Qui-gon
+   Hennes and Mauritz, 44053, Gretal, Darth
+   American Telephone and Telegraph company, 17422, Fanchette, Ratts
+   Ingvar Kamprad Elmtaryd Agunnaryd, 89787, Brunhilda, Sebulba
+   Adolf Dassler, 4963, Iris, Dormé
+
+ +++ { TYPES } +++
+   Founder_Last_Name - string
+   Founder_First_Name - string
+   Number_Of_Employees - int
+   Comp - entity
+   type - entity
+
+ +++ { CONSTRAINTS } +++
+   Comp - primary
+   Number_Of_Employees - rangemin 0.000000
+   Number_Of_Employees - rangemax 100000.000000
+----------------------------------------
+
+----------------------------------------
+ [ LOADING TABLE Student_Comp_Table ]
+
+ +++ { ROWS } +++
+   Identity_Of_Student, Company_Name
+   S0, IKEA
+   S1, Raffel Brothers
+   S2, American Civil Liberties Union
+   S3, Hennes and Mauritz
+   S4, ASOS
+   S5, National Aeronautics and Space Administration
+   S6, Non-Expandable Recreational Foam
+   S7, World Health Organization
+   S8, ACL
+   S9, WHO
+   S10, ALS Association
+   S11, Association for Commuter Transportation
+   S12, Fabbrica Italiana Automobili Torino
+   S13, American Telephone and Telegraph company
+   S14, American Consultants League
+   S15, IKEA
+   S16, AT&T
+   S17, International Standardization Organization
+   S18, CVS
+   S19, Macintosh
+   S20, Arby’s
+   S21, Amyotrophic Lateral Sclerosis Association
+   S22, American Civil Liberties Union
+   S23, American Consultants League
+   S24, Makeup Art Cosmetics
+   S25, International Standardization Organization
+   S26, Adolf Dassler
+   S27, ALS Association
+   S28, World Health Organization
+   S29, ISO
+   S30, Leg Godt
+   S31, NERF
+   S32, Arby’s
+   S33, National Aeronautics and Space Administration
+   S34, NERF
+   S35, ACT
+   S36, World Health Organization
+   S37, Convenience, Value, and Service
+   S38, H&M
+   S39, Lego
+   S40, Amyotrophic Lateral Sclerosis Association
+   S41, 4H
+   S42, EPCOT
+   S43, Raffel Brothers
+   S44, Lego
+   S45, WHO
+   S46, H&M
+   S47, Adolf Dassler
+   S48, North Atlantic Treaty Organization
+   S49, American Writers and Artists Institute
+   S50, Makeup Art Cosmetics
+   S51, ACL
+   S52, Experimental Prototype Community of Tomorrow
+   S53, Pfefferminz
+   S54, Government Employees Insurance Company
+   S55, WHO
+   S56, PEZ
+   S57, Experimental Prototype Community of Tomorrow
+   S58, NERF
+   S59, NERF
+   S60, Makeup Art Cosmetics
+   S61, NERF
+   S62, EPCOT
+   S63, Makeup Art Cosmetics
+   S64, Lego
+   S65, ACLU
+   S66, National Aeronautics and Space Administration
+   S67, AWAI
+   S68, At Try
+   S69, Convenience, Value, and Service
+   S70, Pfefferminz
+   S71, Ingvar Kamprad Elmtaryd Agunnaryd
+   S72, Macintosh
+   S73, NATO
+   S74, Makeup Art Cosmetics
+   S75, ISO
+   S76, American Civil Liberties Union
+   S77, Macintosh
+   S78, AWAI
+   S79, AT&T
+   S80, as seen on the screen
+   S81, Pfefferminz
+   S82, Amyotrophic Lateral Sclerosis Association
+   S83, IKEA
+   S84, ACT
+   S85, ISO
+   S86, Makeup Art Cosmetics
+   S87, 4H
+   S88, Arby’s
+   S89, EPCOT
+   S90, PEZ
+   S91, Makeup Art Cosmetics
+   S92, H&M
+   S93, ASOS
+   S94, Arby’s
+   S95, Non-Expandable Recreational Foam
+   S96, Pfefferminz
+   S97, Ingvar Kamprad Elmtaryd Agunnaryd
+   S98, Arby’s
+   S99, Leg Godt
+
+ +++ { TYPES } +++
+   Company_Name - entity
+   Identity_Of_Student - entity
+   type - entity
+
+ +++ { CONSTRAINTS } +++
+   Identity_Of_Student - primary
+----------------------------------------
+
+----------------------------------------
+ [ LOADING TABLE Alumni_Comp_Table ]
+
+ +++ { ROWS } +++
+   Identity_Of_Alumni, Company_Name
+   AL0, Australian Consultants Lounge
+   AL1, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL2, Head, Heart, Hands, Health
+   AL3, Adolf Dassler
+   AL4, H&M
+   AL5, FIAT
+   AL6, ASOS
+   AL7, American Consultants League
+   AL8, WHO
+   AL9, American Writers and Artists Institute
+   AL10, Experimental Prototype Community of Tomorrow
+   AL11, American Consultants League
+   AL12, American Telephone and Telegraph company
+   AL13, 4H
+   AL14, GEICO
+   AL15, 4H
+   AL16, Adidas
+   AL17, ACL
+   AL18, Leg Godt
+   AL19, American Telephone and Telegraph company
+   AL20, Makeup Art Cosmetics
+   AL21, NASA
+   AL22, American Telephone and Telegraph company
+   AL23, American Telephone and Telegraph company
+   AL24, ACLU
+   AL25, ALS Association
+   AL26, American Civil Liberties Union
+   AL27, Non-Expandable Recreational Foam
+   AL28, American Writers & Artists institution
+   AL29, Pfefferminz
+   AL30, North Atlantic Treaty Organization
+   AL31, American Consultants League
+   AL32, H&M
+   AL33, Makeup Art Cosmetics
+   AL34, World Health Organization
+   AL35, ACLU
+   AL36, H&M
+   AL37, NASA
+   AL38, National Aeronautics and Space Administration
+   AL39, World Health Organization
+   AL40, Non-Expandable Recreational Foam
+   AL41, Experimental Prototype Community of Tomorrow
+   AL42, Adidas
+   AL43, 4H
+   AL44, CVS
+   AL45, AT&T
+   AL46, Amyotrophic Lateral Sclerosis Association
+   AL47, H&M
+   AL48, as seen on the screen
+   AL49, NASA
+   AL50, NATO
+   AL51, Arby’s
+   AL52, 4H
+   AL53, Leg Godt
+   AL54, as seen on the screen
+   AL55, ACL
+   AL56, American Telephone and Telegraph company
+   AL57, CVS
+   AL58, as seen on the screen
+   AL59, North Atlantic Treaty Organization
+   AL60, ALS Association
+   AL61, National Aeronautics and Space Administration
+   AL62, Fabbrica Italiana Automobili Torino
+   AL63, ACL
+   AL64, ALS Association
+   AL65, North Atlantic Treaty Organization
+   AL66, American Consultants League
+   AL67, Raffel Brothers
+   AL68, Raffel Brothers
+   AL69, Adolf Dassler
+   AL70, NATO
+   AL71, CVS
+   AL72, Pfefferminz
+   AL73, Macintosh
+   AL74, American Writers and Artists Institute
+   AL75, AWAI
+   AL76, ACT
+   AL77, ACLU
+   AL78, H&M
+   AL79, 4H
+   AL80, North Atlantic Treaty Organization
+   AL81, IKEA
+   AL82, AWAI
+   AL83, American Writers and Artists Institute
+   AL84, American Civil Liberties Union
+   AL85, NERF
+   AL86, Experimental Prototype Community of Tomorrow
+   AL87, GEICO
+   AL88, CVS
+   AL89, Hennes and Mauritz
+   AL90, H&M
+   AL91, Convenience, Value, and Service
+   AL92, Amyotrophic Lateral Sclerosis Association
+   AL93, American Civil Liberties Union
+   AL94, ISO
+   AL95, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL96, FIAT
+   AL97, NASA
+   AL98, WHO
+   AL99, NERF
+   AL100, Head, Heart, Hands, Health
+   AL101, Lego
+   AL102, Arby’s
+   AL103, Experimental Prototype Community of Tomorrow
+   AL104, Government Employees Insurance Company
+   AL105, ISO
+   AL106, Arby’s
+   AL107, GEICO
+   AL108, FIAT
+   AL109, Arby’s
+   AL110, Macintosh
+   AL111, Association for Commuter Transportation
+   AL112, ASOS
+   AL113, American Writers and Artists Institute
+   AL114, American Writers and Artists Institute
+   AL115, FIAT
+   AL116, Non-Expandable Recreational Foam
+   AL117, AWAI
+   AL118, Convenience, Value, and Service
+   AL119, GEICO
+   AL120, ACT
+   AL121, ACL
+   AL122, American Consultants League
+   AL123, ACL
+   AL124, Government Employees Insurance Company
+   AL125, ACL
+   AL126, North Atlantic Treaty Organization
+   AL127, FIAT
+   AL128, American Civil Liberties Union
+   AL129, AWAI
+   AL130, GEICO
+   AL131, ALS Association
+   AL132, National Aeronautics and Space Administration
+   AL133, FIAT
+   AL134, Non-Expandable Recreational Foam
+   AL135, Raffel Brothers
+   AL136, World Health Organization
+   AL137, Macintosh
+   AL138, National Aeronautics and Space Administration
+   AL139, Non-Expandable Recreational Foam
+   AL140, Leg Godt
+   AL141, Head, Heart, Hands, Health
+   AL142, NASA
+   AL143, International Standardization Organization
+   AL144, ACL
+   AL145, ASOS
+   AL146, Adidas
+   AL147, Macintosh
+   AL148, Head, Heart, Hands, Health
+   AL149, ASOS
+   AL150, Hennes and Mauritz
+   AL151, Adolf Dassler
+   AL152, Arby’s
+   AL153, GEICO
+   AL154, Makeup Art Cosmetics
+   AL155, Amyotrophic Lateral Sclerosis Association
+   AL156, Adidas
+   AL157, H&M
+   AL158, National Aeronautics and Space Administration
+   AL159, AT&T
+   AL160, Non-Expandable Recreational Foam
+   AL161, Pfefferminz
+   AL162, EPCOT
+   AL163, ISO
+   AL164, Macintosh
+   AL165, ISO
+   AL166, Experimental Prototype Community of Tomorrow
+   AL167, American Writers and Artists Institute
+   AL168, WHO
+   AL169, Convenience, Value, and Service
+   AL170, Hennes and Mauritz
+   AL171, Leg Godt
+   AL172, NERF
+   AL173, FIAT
+   AL174, Fabbrica Italiana Automobili Torino
+   AL175, ASOS
+   AL176, ACT
+   AL177, H&M
+   AL178, Hennes and Mauritz
+   AL179, ASOS
+   AL180, ALS Association
+   AL181, Experimental Prototype Community of Tomorrow
+   AL182, ACT
+   AL183, NASA
+   AL184, NASA
+   AL185, Arby’s
+   AL186, Macintosh
+   AL187, as seen on the screen
+   AL188, Macintosh
+   AL189, Adolf Dassler
+   AL190, Macintosh
+   AL191, American Telephone and Telegraph company
+   AL192, 4H
+   AL193, American Telephone and Telegraph company
+   AL194, ACLU
+   AL195, Head, Heart, Hands, Health
+   AL196, Experimental Prototype Community of Tomorrow
+   AL197, as seen on the screen
+   AL198, NERF
+   AL199, Association for Commuter Transportation
+   AL200, Raffel Brothers
+   AL201, Raffel Brothers
+   AL202, American Civil Liberties Union
+   AL203, Head, Heart, Hands, Health
+   AL204, PEZ
+   AL205, American Telephone and Telegraph company
+   AL206, American Writers nd Artists institution
+   AL207, Fabbrica Italiana Automobili Torino
+   AL208, ACLU
+   AL209, American Civil Liberties Union
+   AL210, PEZ
+   AL211, NERF
+   AL212, CVS
+   AL213, American Telephone and Telegraph company
+   AL214, American Telephone and Telegraph company
+   AL215, Government Employees Insurance Company
+   AL216, American Civil Liberties Union
+   AL217, AWAI
+   AL218, Head, Heart, Hands, Health
+   AL219, ACL
+   AL220, American Telephone and Telegraph company
+   AL221, Adolf Dassler
+   AL222, Raffel Brothers
+   AL223, North Atlantic Treaty Organization
+   AL224, Raffel Brothers
+   AL225, PEZ
+   AL226, Pfefferminz
+   AL227, Adolf Dassler
+   AL228, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL229, NASA
+   AL230, IKEA
+   AL231, ACT
+   AL232, CVS
+   AL233, ACT
+   AL234, NERF
+   AL235, NASA
+   AL236, IKEA
+   AL237, Amyotrophic Lateral Sclerosis Association
+   AL238, Convenience, Value, and Service
+   AL239, Raffel Brothers
+   AL240, National Aeronautics and Space Administration
+   AL241, Makeup Art Cosmetics
+   AL242, Lego
+   AL243, NATO
+   AL244, ASOS
+   AL245, EPCOT
+   AL246, American Civil Liberties Union
+   AL247, Macintosh
+   AL248, EPCOT
+   AL249, ASOS
+   AL250, WHO
+   AL251, Adolf Dassler
+   AL252, ISO
+   AL253, American Civil Liberties Union
+   AL254, CVS
+   AL255, Arby’s
+   AL256, NERF
+   AL257, Leg Godt
+   AL258, as seen on the screen
+   AL259, Lego
+   AL260, Arby’s
+   AL261, CVS
+   AL262, EPCOT
+   AL263, ACT
+   AL264, GEICO
+   AL265, Pfefferminz
+   AL266, Fabbrica Italiana Automobili Torino
+   AL267, American Civil Liberties Union
+   AL268, Leg Godt
+   AL269, ISO
+   AL270, Lego
+   AL271, as seen on the screen
+   AL272, as seen on the screen
+   AL273, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL274, ALS Association
+   AL275, Government Employees Insurance Company
+   AL276, Raffel Brothers
+   AL277, Lego
+   AL278, Save Our Souls
+   AL279, Adolf Dassler
+   AL280, American Telephone and Telegraph company
+   AL281, Fabbrica Italiana Automobili Torino
+   AL282, ISO
+   AL283, WHO
+   AL284, ACLU
+   AL285, Raffel Brothers
+   AL286, FIAT
+   AL287, as seen on the screen
+   AL288, Lego
+   AL289, Adolf Dassler
+   AL290, American Telephone and Telegraph company
+   AL291, ACT
+   AL292, American Consultants League
+   AL293, Convenience, Value, and Service
+   AL294, Adolf Dassler
+   AL295, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL296, H&M
+   AL297, American Telephone and Telegraph company
+   AL298, ACL
+   AL299, Government Employees Insurance Company
+   AL300, Arby’s
+   AL301, Pfefferminz
+   AL302, Pfefferminz
+   AL303, AWAI
+   AL304, GEICO
+   AL305, Adolf Dassler
+   AL306, IKEA
+   AL307, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL308, ISO
+   AL309, IKEA
+   AL310, ASOS
+   AL311, Pfefferminz
+   AL312, Amyotrophic Lateral Sclerosis Association
+   AL313, PEZ
+   AL314, as seen on the screen
+   AL315, CVS
+   AL316, FIAT
+   AL317, GEICO
+   AL318, AWAI
+   AL319, AWAI
+   AL320, NASA
+   AL321, Adolf Dassler
+   AL322, ACLU
+   AL323, NATO
+   AL324, ISO
+   AL325, IKEA
+   AL326, World Health Organization
+   AL327, ACLU
+   AL328, Government Employees Insurance Company
+   AL329, AWAI
+   AL330, Adidas
+   AL331, ACL
+   AL332, Non-Expandable Recreational Foam
+   AL333, Government Employees Insurance Company
+   AL334, NERF
+   AL335, Adolf Dassler
+   AL336, Convenience, Value, and Service
+   AL337, IKEA
+   AL338, Convenience, Value, and Service
+   AL339, North Atlantic Treaty Organization
+   AL340, AWAI
+   AL341, World Health Organization
+   AL342, Fabbrica Italiana Automobili Torino
+   AL343, AWAI
+   AL344, Lego
+   AL345, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL346, Leg Godt
+   AL347, Adidas
+   AL348, Arby’s
+   AL349, American Telephone and Telegraph company
+   AL350, Makeup Art Cosmetics
+   AL351, Association for Commuter Transportation
+   AL352, American Civil Liberties Union
+   AL353, ACLU
+   AL354, EPCOT
+   AL355, IKEA
+   AL356, American Consultants League
+   AL357, Adolf Dassler
+   AL358, IKEA
+   AL359, GEICO
+   AL360, Arby’s
+   AL361, as seen on the screen
+   AL362, Macintosh
+   AL363, Hennes and Mauritz
+   AL364, American Civil Liberties Union
+   AL365, Government Employees Insurance Company
+   AL366, Adolf Dassler
+   AL367, H&M
+   AL368, World Health Organization
+   AL369, ALS Association
+   AL370, Lego
+   AL371, NATO
+   AL372, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL373, National Aeronautics and Space Administration
+   AL374, International Standardization Organization
+   AL375, ASOS
+   AL376, Macintosh
+   AL377, Fabbrica Italiana Automobili Torino
+   AL378, ISO
+   AL379, IKEA
+   AL380, Experimental Prototype Community of Tomorrow
+   AL381, NATO
+   AL382, Adolf Dassler
+   AL383, Adidas
+   AL384, Non-Expandable Recreational Foam
+   AL385, as seen on the screen
+   AL386, Lego
+   AL387, Adolf Dassler
+   AL388, National Aeronautics and Space Administration
+   AL389, At Try
+   AL390, Makeup Art Cosmetics
+   AL391, Adolf Dassler
+   AL392, WHO
+   AL393, National Aeronautics and Space Administration
+   AL394, IKEA
+   AL395, NERF
+   AL396, NASA
+   AL397, Adidas
+   AL398, PEZ
+   AL399, Experimental Prototype Community of Tomorrow
+   AL400, Government Employees Insurance Company
+   AL401, Macintosh
+   AL402, ACLU
+   AL403, Raffel Brothers
+   AL404, 4H
+   AL405, NATO
+   AL406, Convenience, Value, and Service
+   AL407, American Telephone and Telegraph company
+   AL408, 4H
+   AL409, American Writers nd Artists institution
+   AL410, as seen on the screen
+   AL411, Head, Heart, Hands, Health
+   AL412, AWAI
+   AL413, Lego
+   AL414, Association for Commuter Transportation
+   AL415, Adidas
+   AL416, National Aeronautics and Space Administration
+   AL417, WHO
+   AL418, as seen on the screen
+   AL419, Fabbrica Italiana Automobili Torino
+   AL420, Government Employees Insurance Company
+   AL421, International Standardization Organization
+   AL422, ACLU
+   AL423, Macintosh
+   AL424, Convenience, Value, nd Service
+   AL425, Convenience, Value, and Service
+   AL426, IKEA
+   AL427, ISO
+   AL428, AT&T
+   AL429, Experimental Prototype Community of Tomorrow
+   AL430, Raffel Brothers
+   AL431, ACL
+   AL432, ISO
+   AL433, American Writers and Artists Institute
+   AL434, American Writers and Artists Institute
+   AL435, as seen on the screen
+   AL436, NERF
+   AL437, Leg Godt
+   AL438, Arby’s
+   AL439, ACLU
+   AL440, FIAT
+   AL441, Convenience, Value, and Service
+   AL442, ISO
+   AL443, Amyotrophic Lateral Sclerosis Association
+   AL444, Government Employees Insurance Company
+   AL445, CVS
+   AL446, Hennes & Mauritz
+   AL447, Non-Expandable Recreational Foam
+   AL448, American Civil Liberties Union
+   AL449, FIAT
+   AL450, American Consultants League
+   AL451, Experimental Prototype Community of Tomorrow
+   AL452, as seen on the screen
+   AL453, National Aeronautics & Space Administration
+   AL454, AT&T
+   AL455, IKEA
+   AL456, PEZ
+   AL457, Lego
+   AL458, Makeup Art Cosmetics
+   AL459, ACL
+   AL460, Hennes and Mauritz
+   AL461, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL462, Hennes and Mauritz
+   AL463, Adidas
+   AL464, NASA
+   AL465, National Aeronautics and Space Administration
+   AL466, ACLU
+   AL467, Raffel Brothers
+   AL468, IKEA
+   AL469, Adidas
+   AL470, NASA
+   AL471, ACLU
+   AL472, NATO
+   AL473, Amyotrophic Lateral Sclerosis Association
+   AL474, Head, Heart, Hands, Health
+   AL475, AWAI
+   AL476, American Telephone and Telegraph company
+   AL477, Raffel Brothers
+   AL478, NATO
+   AL479, Lego
+   AL480, Macintosh
+   AL481, Arby’s
+   AL482, Head, Heart, Hands, Health
+   AL483, AT&T
+   AL484, 4H
+   AL485, H&M
+   AL486, 4H
+   AL487, AT&T
+   AL488, International Standardization Organization
+   AL489, Government Employees Insurance Company
+   AL490, H&M
+   AL491, NATO
+   AL492, GEICO
+   AL493, AWAI
+   AL494, 4H
+   AL495, Arby’s
+   AL496, Adidas
+   AL497, American Telephone & Telegraph company
+   AL498, ACL
+   AL499, PEZ
+   AL500, World Health Organization
+   AL501, North Atlantic Treaty Organization
+   AL502, ACL
+   AL503, ACL
+   AL504, NERF
+   AL505, International Standardization Organization
+   AL506, Raffel Brothers
+   AL507, Raffel Brothers
+   AL508, Raffel Brothers
+   AL509, Government Employees Insurance Company
+   AL510, Adidas
+   AL511, GEICO
+   AL512, Experimental Prototype Community of Tomorrow
+   AL513, World Health Organization
+   AL514, AWAI
+   AL515, Fabbrica Italiana Automobili Torino
+   AL516, Fabbrica Italiana Automobili Torino
+   AL517, NASA
+   AL518, NASA
+   AL519, 4H
+   AL520, FIAT
+   AL521, ALS Association
+   AL522, NATO
+   AL523, World Health Organization
+   AL524, Government Employees Insurance Company
+   AL525, GEICO
+   AL526, Adolf Dassler
+   AL527, AWAI
+   AL528, Hennes nd Mauritz
+   AL529, Pfefferminz
+   AL530, IKEA
+   AL531, Association for Commuter Transportation
+   AL532, ACLU
+   AL533, North Atlantic Treaty Organization
+   AL534, Macintosh
+   AL535, AWAI
+   AL536, Macintosh
+   AL537, NERF
+   AL538, GEICO
+   AL539, National Aeronautics & Space Administration
+   AL540, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL541, Hennry n Maurice
+   AL542, ACL
+   AL543, Adidas
+   AL544, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL545, AWAI
+   AL546, Adolf Dassler
+   AL547, Amyotrophic Lateral Sclerosis Association
+   AL548, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL549, FIAT
+   AL550, Fabbrica Italiana Automobili Torino
+   AL551, Pfefferminz
+   AL552, International Standardization Organization
+   AL553, Amyotrophic Lateral Sclerosis Association
+   AL554, Government Employees Insurance Company
+   AL555, Makeup Art Cosmetics
+   AL556, ACT
+   AL557, Experimental Prototype Community of Tomorrow
+   AL558, H&M
+   AL559, NERF
+   AL560, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL561, American Civil Liberties Union
+   AL562, WHO
+   AL563, ACL
+   AL564, NASA
+   AL565, Government Employees Insurance Company
+   AL566, Convenience, Value, and Service
+   AL567, NERF
+   AL568, Arby’s
+   AL569, ASOS
+   AL570, AWAI
+   AL571, NERF
+   AL572, American Writers and Artists Institute
+   AL573, Pfefferminz
+   AL574, American Civil Liberties Union
+   AL575, NATO
+   AL576, American Consultants League
+   AL577, Non-Expandable Recreational Foam
+   AL578, EPCOT
+   AL579, CVS
+   AL580, 4H
+   AL581, CVS
+   AL582, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL583, National Aeronautics and Space Administration
+   AL584, NATO
+   AL585, AT&T
+   AL586, Association for Commuter Transportation
+   AL587, Convenience, Value, and Service
+   AL588, Association for Commuter Transportation
+   AL589, Makeup Art Cosmetics
+   AL590, 4H
+   AL591, EPCOT
+   AL592, Adidas
+   AL593, Adidas
+   AL594, American Telephone and Telegraph company
+   AL595, PEZ
+   AL596, ISO
+   AL597, Pfefferminz
+   AL598, ACL
+   AL599, AT&T
+   AL600, Fabbrica Italiana Automobili Torino
+   AL601, ACT
+   AL602, Macintosh
+   AL603, Convenience, Value, and Service
+   AL604, Lego
+   AL605, Association for Commuter Transportation
+   AL606, International Standardization Organization
+   AL607, AT&T
+   AL608, Association for Commuter Transportation
+   AL609, PEZ
+   AL610, ASOS
+   AL611, North Atlantic Treaty Organization
+   AL612, Makeup Art Cosmetics
+   AL613, EPCOT
+   AL614, NERF
+   AL615, GEICO
+   AL616, Macintosh
+   AL617, Experimental Prototype Community of Tomorrow
+   AL618, Experimental Prototype Community of Tomorrow
+   AL619, AWAI
+   AL620, Convenience, Value, and Service
+   AL621, IKEA
+   AL622, EPCOT
+   AL623, H&M
+   AL624, ACLU
+   AL625, Fabbrica Italiana Automobili Torino
+   AL626, ACLU
+   AL627, H&M
+   AL628, Fabbrica Italiana Automobili Torino
+   AL629, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL630, 4H
+   AL631, Association for Commuter Transportation
+   AL632, PEZ
+   AL633, Macintosh
+   AL634, World Health Organization
+   AL635, PEZ
+   AL636, Hennes and Mauritz
+   AL637, Amyotrophic Lateral Sclerosis Association
+   AL638, Leg Godt
+   AL639, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL640, EPCOT
+   AL641, AT&T
+   AL642, AWAI
+   AL643, Makeup Art Cosmetics
+   AL644, Experimental Prototype Community of Tomorrow
+   AL645, Macintosh
+   AL646, 4H
+   AL647, National Aeronautics and Space Administration
+   AL648, GEICO
+   AL649, FIAT
+   AL650, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL651, Makeup Art Cosmetics
+   AL652, as seen on the screen
+   AL653, AT&T
+   AL654, as seen on the screen
+   AL655, ALS Association
+   AL656, Adolf Dassler
+   AL657, AT&T
+   AL658, North Atlantic Treaty Organization
+   AL659, American Civil Liberties Union
+   AL660, ACL
+   AL661, American Civil Liberties Union
+   AL662, Non-Expandable Recreational Foam
+   AL663, Macintosh
+   AL664, Non-Expandable Recreational Foam
+   AL665, NERF
+   AL666, ACL
+   AL667, Makeup Art Cosmetics
+   AL668, Convenience, Value, and Service
+   AL669, Macintosh
+   AL670, ASOS
+   AL671, NASA
+   AL672, IKEA
+   AL673, Pfefferminz
+   AL674, Head, Heart, Hands, Health
+   AL675, Makeup Art Cosmetics
+   AL676, American Consultants League
+   AL677, WHO
+   AL678, AT&T
+   AL679, ISO
+   AL680, ACT
+   AL681, American Consultants League
+   AL682, Macintosh
+   AL683, World Health Organization
+   AL684, American Telephone and Telegraph company
+   AL685, NASA
+   AL686, 4H
+   AL687, WHO
+   AL688, NERF
+   AL689, World Health Organization
+   AL690, Fabbrica Italiana Automobili Torino
+   AL691, ISO
+   AL692, Adidas
+   AL693, Adidas
+   AL694, Convenience, Value, and Service
+   AL695, ACT
+   AL696, North Atlantic Treaty Organization
+   AL697, Raffel Brothers
+   AL698, Macintosh
+   AL699, World Health Organization
+   AL700, ISO
+   AL701, Adidas
+   AL702, Arby’s
+   AL703, GEICO
+   AL704, Association for Commuter Transportation
+   AL705, as seen on the screen
+   AL706, Experimental Prototype Community of Tomorrow
+   AL707, ASOS
+   AL708, Pfefferminz
+   AL709, H&M
+   AL710, Macintosh
+   AL711, American Civil Liberties Union
+   AL712, Association for Commuter Transportation
+   AL713, American Writers and Artists Institute
+   AL714, Makeup Art Cosmetics
+   AL715, International Standardization Organization
+   AL716, NATO
+   AL717, ALS Assoc.
+   AL718, H&M
+   AL719, NERF
+   AL720, International Standardization Organization
+   AL721, American Telephone and Telegraph company
+   AL722, Fabbrica Italiana Automobili Torino
+   AL723, H&M
+   AL724, American Writers and Artists Institute
+   AL725, Convenience, Value, and Service
+   AL726, Raffel Brothers
+   AL727, Head, Heart, Hands, Health
+   AL728, Convenience, Value, and Service
+   AL729, CVS
+   AL730, ASOS
+   AL731, Fabbrica Italiana Automobili Torino
+   AL732, American Civil Liberties Union
+   AL733, NATO
+   AL734, PEZ
+   AL735, GEICO
+   AL736, NATO
+   AL737, as seen on the screen
+   AL738, Non-Expandable Recreational Foam
+   AL739, WHO
+   AL740, Amyotrophic Lateral Sclerosis Association
+   AL741, Head, Heart, Hands, Health
+   AL742, GEICO
+   AL743, Fabbrica Italiana Automobili Torino
+   AL744, Government Employees Insurance Company
+   AL745, Fabbrica Italiana Automobili Torino
+   AL746, CVS
+   AL747, ACLU
+   AL748, Amyotrophic Lateral Sclerosis Association
+   AL749, Amyotrophic Lateral Sclerosis Association
+   AL750, Raffel Brothers
+   AL751, FIAT
+   AL752, Amyotrophic Lateral Sclerosis Association
+   AL753, Head, Heart, Hands, Health
+   AL754, American Writers and Artists Institute
+   AL755, ACLU
+   AL756, Hennes and Mauritz
+   AL757, Government Employees Insurance Company
+   AL758, ACT
+   AL759, Macintosh
+   AL760, Non-Expandable Recreational Foam
+   AL761, ACT
+   AL762, American Consultants League
+   AL763, ISO
+   AL764, AWAI
+   AL765, Raffel Brothers
+   AL766, H&M
+   AL767, World Health Organization
+   AL768, North Atlantic Treaty Organization
+   AL769, H&M
+   AL770, H&M
+   AL771, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL772, AT&T
+   AL773, American Writers and Artists Institute
+   AL774, WHO
+   AL775, Leg Godt
+   AL776, Leg Godt
+   AL777, ASOS
+   AL778, Leg Godt
+   AL779, Raffel Brothers
+   AL780, WHO
+   AL781, Macintosh
+   AL782, Adidas
+   AL783, NATO
+   AL784, World Health Organization
+   AL785, Head, Heart, Hands, Health
+   AL786, NASA
+   AL787, Leg Godt
+   AL788, ACT
+   AL789, Makeup Art Cosmetics
+   AL790, Adidas
+   AL791, Association for Commuter Transportation
+   AL792, Arby’s
+   AL793, WHO
+   AL794, American Telephone and Telegraph company
+   AL795, NASA
+   AL796, AT&T
+   AL797, Lego
+   AL798, ACT
+   AL799, Head, Heart, Hands, Health
+   AL800, ASOS
+   AL801, Non-Expandable Recreational Foam
+   AL802, International Standardization Organization
+   AL803, NERF
+   AL804, Government Employees Insurance Company
+   AL805, ASOS
+   AL806, AT&T
+   AL807, Hennes and Mauritz
+   AL808, FIAT
+   AL809, AT&T
+   AL810, American Civil Liberties Union
+   AL811, Makeup Art Cosmetics
+   AL812, ALS
+   AL813, World Health Organization
+   AL814, American Civil Liberties Union
+   AL815, WHO
+   AL816, Lego
+   AL817, ACL
+   AL818, American Writers and Artists Institute
+   AL819, Makeup Art Cosmetics
+   AL820, ACLU
+   AL821, AWAI
+   AL822, as seen on the screen
+   AL823, Adolf Dassler
+   AL824, Hennes and Mauritz
+   AL825, American Civil Liberties Union
+   AL826, Leg Godt
+   AL827, Adolf Dassler
+   AL828, H&M
+   AL829, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL830, PEZ
+   AL831, Macintosh
+   AL832, GEICO
+   AL833, ACLU
+   AL834, ALS Association
+   AL835, AT&T
+   AL836, National Aeronautics and Space Administration
+   AL837, 4H
+   AL838, Adolf Dassler
+   AL839, Raffel Brothers
+   AL840, IKEA
+   AL841, American Civil Liberties Union
+   AL842, NASA
+   AL843, National Aeronautics and Space Administration
+   AL844, World Health Organization
+   AL845, EPCOT
+   AL846, NASA
+   AL847, Leg Godt
+   AL848, American Writers and Artists Institute
+   AL849, Adolf Dassler
+   AL850, as seen on the screen
+   AL851, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL852, Fabbrica Italiana Automobili Torino
+   AL853, NATO
+   AL854, International Standardization Organization
+   AL855, Head, Heart, Hands, Health
+   AL856, Non-Expandable Recreational Foam
+   AL857, Adidas
+   AL858, North Atlantic Treaty Organization
+   AL859, NATO
+   AL860, ACT
+   AL861, NATO
+   AL862, AT&T
+   AL863, ACT
+   AL864, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL865, American Consultants League
+   AL866, AWAI
+   AL867, 4H
+   AL868, EPCOT
+   AL869, American Consultants League
+   AL870, Government Employees Insurance Company
+   AL871, American Writers and Artists Institute
+   AL872, Association for Commuter Transportation
+   AL873, North Atlantic Treaty Organization
+   AL874, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL875, American Consultants League
+   AL876, Lego
+   AL877, as seen on the screen
+   AL878, ISO
+   AL879, Arby’s
+   AL880, ACT
+   AL881, 4H
+   AL882, 4H
+   AL883, GEICO
+   AL884, Fabbrica Italiana Automobili Torino
+   AL885, ACLU
+   AL886, ASOS
+   AL887, H&M
+   AL888, Non-Expandable Recreational Foam
+   AL889, Amyotrophic Lateral Sclerosis Association
+   AL890, North Atlantic Treaty Organization
+   AL891, Macintosh
+   AL892, EPCOT
+   AL893, Macintosh
+   AL894, ACL
+   AL895, ACT
+   AL896, IKEA
+   AL897, FIAT
+   AL898, American Civil Liberties Union
+   AL899, Makeup Art Cosmetics
+   AL900, National Aeronautics and Space Administration
+   AL901, GEICO
+   AL902, NERF
+   AL903, ACLU
+   AL904, as seen on the screen
+   AL905, FIAT
+   AL906, American Telephone and Telegraph company
+   AL907, IKEA
+   AL908, PEZ
+   AL909, Lego
+   AL910, Amyotrophic Lateral Sclerosis Association
+   AL911, ALS
+   AL912, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL913, Lego
+   AL914, AWAI
+   AL915, GEICO
+   AL916, Makeup Art Cosmetics
+   AL917, ACT
+   AL918, NERF
+   AL919, American Civil Liberties Union
+   AL920, Leg Godt
+   AL921, WHO
+   AL922, American Civil Liberties Union
+   AL923, ACLU
+   AL924, Macintosh
+   AL925, American Consultants League
+   AL926, NASA
+   AL927, ALS Association
+   AL928, ASOS
+   AL929, WHO
+   AL930, American Civil Liberties Union
+   AL931, NASA
+   AL932, Government Employees Insurance Company
+   AL933, Non-Expandable Recreational Foam
+   AL934, American Telephone and Telegraph company
+   AL935, Pfefferminz
+   AL936, Non-Expandable Recreational Foam
+   AL937, National Aeronautics and Space Administration
+   AL938, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL939, ACT
+   AL940, Arby’s
+   AL941, Fabbrica Italiana Automobili Torino
+   AL942, Makeup Art Cosmetics
+   AL943, Raffel Brothers
+   AL944, Makeup Art Cosmetics
+   AL945, NASA
+   AL946, Convenience, Value, and Service
+   AL947, NATO
+   AL948, AWAI
+   AL949, ASOS
+   AL950, ASOS
+   AL951, Macintosh
+   AL952, AT&T
+   AL953, American Civil Liberties Union
+   AL954, PEZ
+   AL955, GEICO
+   AL956, American Civil Liberties Union
+   AL957, American Writers and Artists Institute
+   AL958, Arby’s
+   AL959, ACL
+   AL960, Government Employees Insurance Company
+   AL961, IKEA
+   AL962, American Civil Liberties Union
+   AL963, IKEA
+   AL964, CVS
+   AL965, as seen on the screen
+   AL966, Government Employees Insurance Company
+   AL967, Leg Godt
+   AL968, Raffel Brothers
+   AL969, Leg Godt
+   AL970, Non-Expandable Recreational Foam
+   AL971, AT&T
+   AL972, as seen on the screen
+   AL973, National Aeronautics and Space Administration
+   AL974, Amyotrophic Lateral Sclerosis Association
+   AL975, International Standardization Organization
+   AL976, CVS
+   AL977, American Civil Liberties Union
+   AL978, Macintosh
+   AL979, PEZ
+   AL980, Leg Godt
+   AL981, American Writers and Artists Institute
+   AL982, American Consultants League
+   AL983, Raffel Brothers
+   AL984, FIAT
+   AL985, Fabbrica Italiana Automobili Torino
+   AL986, Amyotrophic Lateral Sclerosis Association
+   AL987, American Civil Liberties Union
+   AL988, International Standardization Organization
+   AL989, ACT
+   AL990, FIAT
+   AL991, Fabbrica Italiana Automobili Torino
+   AL992, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL993, International Standardization Organization
+   AL994, American Consultants League
+   AL995, Non-Expandable Recreational Foam
+   AL996, AWAI
+   AL997, CVS
+   AL998, Ingvar Kamprad Elmtaryd Agunnaryd
+   AL999, Libra, Banner, Sagittarius
+
+ +++ { TYPES } +++
+   Company_Name - entity
+   Identity_Of_Alumni - entity
+   type - entity
+
+ +++ { CONSTRAINTS } +++
+   Identity_Of_Alumni - primary
+----------------------------------------
+
+----------------------------------------
+ [ MAPPING SCHEMA FOR TABLE Company_Table ]
+
+
+ [ SCHEMA MAPPING FINISHED ]
+----------------------------------------
+
+----------------------------------------
+ [ LINKING RECORDS FOR TABLE Company_Table ]
+ [ # OF SAMPLES : 0 ]
+
+
+ [ RECORD LINKING FINISHED ]
+----------------------------------------
+
+ [ KNOWLEDGE GRAPH UPDATED ]
+----------------------------------------
+
+----------------------------------------
+ [ MAPPING SCHEMA FOR TABLE Student_Comp_Table ]
+
+
+ [ SCHEMA MAPPING FINISHED ]
+----------------------------------------
+
+----------------------------------------
+ [ LINKING RECORDS FOR TABLE Student_Comp_Table ]
+ [ # OF SAMPLES : 16 ]
+
+  [ INITIALIZATION ]
+   { Active Learning }  Link <ACL> to <American Consultants League> ? (Y/N) Y
+   { Active Learning }  Link <ISO> to <International Standardization Organization> ? (Y/N) Y
+   { Active Learning }  Link <IKEA> to <Ingvar Kamprad Elmtaryd Agunnaryd> ? (Y/N) Y
+   { Active Learning }  Link <EPCOT> to <Experimental Prototype Community of Tomorrow> ? (Y/N) Y
+   { Active Learning }  Link <ACLU> to <American Civil Liberties Union> ? (Y/N) Y
+
+  [ ITERATION 1 ]
+  [ # OF UNLABELLED 11 ]
+  [ ACCURACY : 40.000000 % ]
+   { Active Learning }  Link <NERF> to <Non-Expandable Recreational Foam> ? (Y/N) Y
+   { Active Learning }  Link <NATO> to <North Atlantic Treaty Organization> ? (Y/N) Y
+
+  [ ITERATION 2 ]
+  [ # OF UNLABELLED 9 ]
+  [ ACCURACY : 42.857143 % ]
+   { Active Learning }  Link <ASOS> to <as seen on the screen> ? (Y/N) N
+   { Active Learning }  Link <WHO> to <World Health Organization> ? (Y/N) Y
+
+  [ ITERATION 3 ]
+  [ # OF UNLABELLED 7 ]
+  [ ACCURACY : 33.333333 % ]
+   { Active Learning }  Link <ACL> to <American Civil Liberties Union> ? (Y/N) N
+   { Active Learning }  Link <AWAI> to <American Writers and Artists Institute> ? (Y/N) Y
+
+  [ ITERATION 4 ]
+  [ # OF UNLABELLED 5 ]
+  [ ACCURACY : 36.363636 % ]
+   { Active Learning }  Link <ACLU> to <American Consultants League> ? (Y/N) N
+
+  [ ITERATION 5 ]
+  [ # OF UNLABELLED 3 ]
+  [ ACCURACY : 30.769231 % ]
+
+ [ RESULTS ]
+  Linked <AWAI> to <American Writers and Artists Institute> (confidence : 7/7)
+  Linked <WHO> to <World Health Organization> (confidence : 7/7)
+  Linked <NATO> to <North Atlantic Treaty Organization> (confidence : 7/7)
+  Linked <NERF> to <Non-Expandable Recreational Foam> (confidence : 7/7)
+  Linked <ACLU> to <American Civil Liberties Union> (confidence : 7/7)
+  Linked <EPCOT> to <Experimental Prototype Community of Tomorrow> (confidence : 7/7)
+  Linked <CVS> to <Convenience, Value, and Service> (confidence : 7/7)
+  Linked <IKEA> to <Ingvar Kamprad Elmtaryd Agunnaryd> (confidence : 7/7)
+  Linked <ISO> to <International Standardization Organization> (confidence : 7/7)
+  Linked <ACT> to <American Consultants League> (confidence : 7/7)
+  Linked <ACL> to <American Consultants League> (confidence : 7/7)
+
+ [ RECORD LINKING FINISHED ]
+----------------------------------------
+
+ [ KNOWLEDGE GRAPH UPDATED ]
+----------------------------------------
+
+----------------------------------------
+ [ MAPPING SCHEMA FOR TABLE Alumni_Comp_Table ]
+
+
+ [ SCHEMA MAPPING FINISHED ]
+----------------------------------------
+
+----------------------------------------
+ [ LINKING RECORDS FOR TABLE Alumni_Comp_Table ]
+ [ # OF SAMPLES : 28 ]
+
+  [ INITIALIZATION ]
+   { Active Learning }  Link <NATO> to <North Atlantic Treaty Organization> ? (Y/N) Y
+   { Active Learning }  Link <FIAT> to <Fabbrica Italiana Automobili Torino> ? (Y/N) Y
+   { Active Learning }  Link <EPCOT> to <Experimental Prototype Community of Tomorrow> ? (Y/N) Y
+   { Active Learning }  Link <ACLU> to <American Civil Liberties Union> ? (Y/N) Y
+   { Active Learning }  Link <ACL> to <American Consultants League> ? (Y/N) Y
+
+  [ ITERATION 1 ]
+  [ # OF UNLABELLED 23 ]
+  [ ACCURACY : 40.000000 % ]
+   { Active Learning }  Link <ISO> to <International Standardization Organization> ? (Y/N) Y
+   { Active Learning }  Link <IKEA> to <Ingvar Kamprad Elmtaryd Agunnaryd> ? (Y/N) Y
+
+  [ ITERATION 2 ]
+  [ # OF UNLABELLED 21 ]
+  [ ACCURACY : 42.857143 % ]
+   { Active Learning }  Link <WHO> to <World Health Organization> ? (Y/N) Y
+   { Active Learning }  Link <NERF> to <Non-Expandable Recreational Foam> ? (Y/N) Y
+
+  [ ITERATION 3 ]
+  [ # OF UNLABELLED 19 ]
+  [ ACCURACY : 44.444444 % ]
+   { Active Learning }  Link <National Aeronautics & Space Administration> to <National Aeronautics and Space Administration> ? (Y/N) Y
+   { Active Learning }  Link <American Telephone & Telegraph company> to <American Telephone and Telegraph company> ? (Y/N) Y
+
+  [ ITERATION 4 ]
+  [ # OF UNLABELLED 17 ]
+  [ ACCURACY : 36.363636 % ]
+   { Active Learning }  Link <Hennes & Mauritz> to <Hennes and Mauritz> ? (Y/N) Y
+   { Active Learning }  Link <Convenience, Value, nd Service> to <Convenience, Value, and Service> ? (Y/N) Y
+
+  [ ITERATION 5 ]
+  [ # OF UNLABELLED 15 ]
+  [ ACCURACY : 38.461538 % ]
+
+ [ RESULTS ]
+  Linked <Hennry n Maurice> to <H&M> (confidence : 7/7)
+  Linked <CVS> to <Convenience, Value, and Service> (confidence : 7/7)
+  Linked <ALS> to <Amyotrophic Lateral Sclerosis Association> (confidence : 7/7)
+  Linked <NASA> to <National Aeronautics and Space Administration> (confidence : 7/7)
+  Linked <American Writers & Artists institution> to <American Writers and Artists Institute> (confidence : 7/7)
+  Linked <AWAI> to <American Writers and Artists Institute> (confidence : 7/7)
+  Linked <American Writers nd Artists institution> to <American Writers and Artists Institute> (confidence : 7/7)
+  Linked <NATO> to <North Atlantic Treaty Organization> (confidence : 7/7)
+  Linked <FIAT> to <Fabbrica Italiana Automobili Torino> (confidence : 7/7)
+  Linked <National Aeronautics & Space Administration> to <National Aeronautics and Space Administration> (confidence : 7/7)
+  Linked <ACL> to <American Consultants League> (confidence : 7/7)
+  Linked <ACT> to <American Consultants League> (confidence : 7/7)
+  Linked <Hennes nd Mauritz> to <Hennes and Mauritz> (confidence : 7/7)
+  Linked <ISO> to <International Standardization Organization> (confidence : 7/7)
+  Linked <ACLU> to <American Civil Liberties Union> (confidence : 7/7)
+  Linked <Hennes & Mauritz> to <Hennes and Mauritz> (confidence : 7/7)
+  Linked <GEICO> to <Government Employees Insurance Company> (confidence : 7/7)
+  Linked <EPCOT> to <Experimental Prototype Community of Tomorrow> (confidence : 7/7)
+  Linked <IKEA> to <Ingvar Kamprad Elmtaryd Agunnaryd> (confidence : 7/7)
+  Linked <Convenience, Value, nd Service> to <Convenience, Value, and Service> (confidence : 7/7)
+  Linked <WHO> to <World Health Organization> (confidence : 7/7)
+  Linked <NERF> to <Non-Expandable Recreational Foam> (confidence : 7/7)
+  Linked <Save Our Souls> to <ASOS> (confidence : 7/7)
+  Linked <American Telephone & Telegraph company> to <American Telephone and Telegraph company> (confidence : 7/7)
+
+ [ RECORD LINKING FINISHED ]
+----------------------------------------
+
+ [ KNOWLEDGE GRAPH UPDATED ]
+----------------------------------------
+
