@@ -4,7 +4,7 @@
 • *make create* -   To create an empty knowledge graph file by the name of *myKG.txt* <br>
 • *make reset* -    To reset the knowledge graph back to empty <br>
 • *make show* -     To show the contents of the knowledge graph <br>
-• *make turtle* -   To convert the knowledge graph into a *myKG.ttl* in turtle format <br>
+• *make turtle* -   To convert the knowledge graph into an equivalent *myKG.ttl* in turtle format <br>
 • *make add db=myDB.txt* -    To merge the database in the file *data/myDB.txt* to the knowledge graph <br>
 • *make clean* -    To delete all executable (*.exe*) files <br>
 
