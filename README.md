@@ -10,8 +10,8 @@
 • *make clean* -    To delete all executable (*.exe*) files <br>
 
 ### RESULTS
-• *results/logs* -  This folder contains the command line logs and user interaction when
+• *results/logs* -  This folder contains the command line logs and user interaction when <br>
                     the 5 databases are merged into the knowledge graph <br>
-• *results/myKG.txt* -  The final resultant knowledge graph triples (and the metadata) 
+• *results/myKG.txt* -  The final resultant knowledge graph triples (and the metadata) <br>
                         after all the 5 databases have been added <br>
-• *results/myKG.ttl* -  The final resultant knowledge graph triples in turtle format <br>
+• *results/myKG.ttl* -  The final resultant knowledge graph triples in turtle format
