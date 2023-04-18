@@ -1,6 +1,7 @@
 # Automated-Construction-of-Knowledge-Graph-from-Structured-Data
+## [ NAKUL AGGARWAL ]
 
-## COMMANDS
+### COMMANDS
 • *make create* -   To create an empty knowledge graph file by the name of *myKG.txt* <br>
 • *make reset* -    To reset the knowledge graph back to empty <br>
 • *make show* -     To show the contents of the knowledge graph <br>
@@ -8,7 +9,7 @@
 • *make add db=myDB.txt* -    To merge the database in the file *data/myDB.txt* to the knowledge graph <br>
 • *make clean* -    To delete all executable (*.exe*) files <br>
 
-## RESULTS
+### RESULTS
 • *results/logs* -  This folder contains the command line logs and user interaction when
                     the 5 databases are merged into the knowledge graph <br>
 • *results/myKG.txt* -  The final resultant knowledge graph triples (and the metadata) 
