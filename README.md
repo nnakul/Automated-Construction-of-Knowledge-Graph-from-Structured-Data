@@ -1,5 +1,4 @@
 # Automated-Construction-of-Knowledge-Graph-from-Structured-Data
-## [ NAKUL AGGARWAL ]
 
 ### COMMANDS
 • *make create* -   To create an empty knowledge graph file by the name of *myKG.txt* <br>
